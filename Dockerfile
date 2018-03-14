@@ -1,5 +1,5 @@
-FROM nginx:1.10.2
-MAINTAINER Kyle Mathews "mathews.kyle@gmail.com"
+FROM nginx:latest
+MAINTAINER Robert Hänsel <robert@advalyze.de>
 
 RUN rm /etc/nginx/nginx.conf /etc/nginx/mime.types
 COPY nginx.conf /etc/nginx/nginx.conf
